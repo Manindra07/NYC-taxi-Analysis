@@ -1,0 +1,17 @@
+TAKEAWAYS = {
+    "hist": "Median trip is 1.7 miles and $9.50; a few long trips pull the mean up to $13.",
+    "hour": "Demand bottoms out at 4-5 am and peaks at 6 pm.",
+    "daily": "Wednesday is busiest (about 240 trips a day); Sunday and Monday are quietest (about 175).",
+    "heatmap": "Weekdays peak 5-8 pm, with Friday 5-7 pm the busiest window of the week; weekends run late into the night.",
+    "box": "Manhattan trips are short and cheap (median $8.50); Queens pickups cost most (median $21.50) and vary most.",
+    "scatter": "Distance explains about 92% of the fare. The flat band at $52 is the JFK fixed fare.",
+    "payment": "Green cabs take more cash (41% vs 26%), and on card they record no tip 46% of the time vs 5% for yellow.",
+    "corr": "Distance, duration and fare move together (0.87 or higher); passenger count is unrelated to everything.",
+    "fpm": "The starting fare makes short trips expensive per mile: about $7.70 under 1 mile, about $3 beyond 10.",
+    "who": "The typical trip is one passenger (74%), picked up in Manhattan (82%), in a yellow cab (85%).",
+    "where": "Pickups cluster in Midtown and the Upper East Side, and 87% of trips stay within one borough.",
+    "borough": "Outer-borough fares are higher because trips are longer, not pricier per mile: Manhattan costs the most per mile (5.65 USD) and Queens the least (3.59 USD).",
+    "time": "Wednesday is busiest. Median speed falls from 17 mph at 5 am to about 9 mph by 8 am and stays there all day, so city traffic, not distance alone, drives trip time.",
+    "tip": "Tipping depends on cab type and trip length, not time of day: yellow cabs get 22-32% at every distance, while green cabs get 22-23% under 2 miles and a median of zero beyond that.",
+    "tests": "Four of the five differences are strong. Weekday vs weekend fares differ significantly but trivially (9.50 vs 9.00 USD).",
+}
